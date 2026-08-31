@@ -52,5 +52,11 @@ namespace QueueSystem
             CashierWindowQueueForm cashierWindow = new CashierWindowQueueForm();
             cashierWindow.Show();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            CustomerView customerView = new CustomerView();
+            customerView.Show();
+        }
     }
 }
